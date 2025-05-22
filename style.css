@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    height: 150px;
+}
+
+.Mario-Luigi {
+    height: 500px;
+}
+
+
+p {
+    color: white;
+}
+
+button {
+    background: #C51111;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.caixa-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    height: 100vh;
+}
+
+
+.caixa-texto {
+    width: 50%;
+    margin-left: 2%;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    position: fixed;
+}
+
+body {
+    height: 100vh;
+}
+
+.Sombra {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+.Link-wpp img {
+    height: 30px;
+    width: 30px;
+    margin-left: 97%;
+    position: fixed;
+    top: 880px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+
+}
+
+.header img {
+    height: 60px;
+
+}
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header a:hover {
+    color: #C51111;
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.botão :hover {
+    background: yellow;
+    color: green;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.Formulario {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border-radius: 5px;
+    gap: 20px;
+    padding: 20px;
+    top: 30%;
+    left: -233px;
+    transition: left 1s ease-in-out;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid gray;
+    outline-color: #18D80F;
+
+
+}
+
+textarea {
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid gray;
+    outline-color: #18D80F;
+
+}
+
+.Mascara-formulario {
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: 1s ease-in-out;
+}
