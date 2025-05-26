@@ -1,4 +1,4 @@
-<h1>Nike</h1>
+<h1>Irmãos-Mario</h1>
 <br>
 <br>
 <h2>Esse foi um projeto que eu desenvolvi no <a href="https://rodolfomori.com.br/devclub">DevClub</a></h2>
@@ -14,4 +14,4 @@
 </p>
 <br>
 <br>
-<img src="https://github.com/mdsousax/Projeito-Nike/blob/main/img/nike%20projeto.png?raw=true"/>
+<img src="https://github.com/mdsousax/Projeto-Mario/blob/master/img/Projeto%20Mario.png?raw=true"/>
